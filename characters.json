@@ -1,0 +1,7 @@
+[
+ {"name": "Соня", "cls": "маг", "hp": 60, "mana": 30, "effects": {}},
+ {"name": "Марат", "cls": "воин", "hp": 100, "mana": 10, "effects": {}},
+ {"name": "Лина", "cls": "жрец", "hp": 70, "mana": 40, "effects": {}},
+ {"name": "Гоша", "cls": "лучник", "hp": 80, "mana": 20, "effects": {}},
+ {"name": "Валера", "cls": "воин", "hp": 100, "mana": 0, "effects": {}}
+]
