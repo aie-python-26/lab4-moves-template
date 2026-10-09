@@ -30,5 +30,8 @@ def limited(move, charges):
 
 
 def book_for(character):
-    """Книга персонажа со всеми приёмами и его собственным комплектом зарядов."""
+    """Книга: strike, nova, heal, status, critical_strike и огни fire10/20/40.
+
+    Комплект зарядов nova — свой у каждого персонажа.
+    """
     raise NotImplementedError

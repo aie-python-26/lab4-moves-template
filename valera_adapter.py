@@ -5,6 +5,8 @@
 
 Ничего не чинит: книга одна на всех, журнал и заряды живут в значениях по
 умолчанию, три огня — те самые три лямбды, лечения у Валеры нет вовсе.
+Имена status и critical_strike ведут на старый strike: статусы он не принимает,
+а крит у него можно передать позиционно.
 """
 import valera_moves as v
 
@@ -36,7 +38,8 @@ def limited(move, charges, state={}):
     return charged
 
 
-BOOK = dict(v.BOOK, fire10=v.fires[0], fire20=v.fires[1], fire40=v.fires[2])
+BOOK = dict(v.BOOK, status=v.strike, critical_strike=v.strike,
+            fire10=v.fires[0], fire20=v.fires[1], fire40=v.fires[2])
 
 
 def book_for(character, charges=3):
